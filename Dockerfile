@@ -1,4 +1,4 @@
-FROM ruby:alpine
+FROM ruby:3.1.2-alpine
 
 RUN apk upgrade --no-cache; \
     gem install jwt
