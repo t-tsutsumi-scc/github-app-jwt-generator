@@ -5,11 +5,6 @@
     "config:base"
   ],
   "timezone": "Asia/Tokyo",
-  "stabilityDays": 3,
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    }
-  ]
+  "stabilityDays": 7,
+  "automerge": true
 }
